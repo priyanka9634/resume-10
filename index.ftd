@@ -596,7 +596,7 @@ color: $inherited.colors.text-strong
 -- ftd.text:
 if: { profile-card-mobile.label != NULL }
 text: $profile-card-mobile.label
-role: $inherited.types.fine-print
+role: $inherited.types.copy-small
 color: $inherited.colors.text-strong
 
 -- end: ftd.column
