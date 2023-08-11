@@ -581,7 +581,9 @@ align-content: center
 if: { profile-card-mobile.image != NULL }
 src: $profile-card-mobile.image
 width.fixed.percent: 40
-border-radius.px: 100
+border-color: $inherited.colors.custom.three
+border-width.px: 5
+border-radius.percent: 100
 
 -- ftd.column:
 
